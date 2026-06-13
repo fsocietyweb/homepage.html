@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Techx32</title>
+	<style>
+:root {
+	color: white;
+}
+body {
+  /* Prevent default margin gaps around the page edges */
+  margin: 0;
+  padding: 0;
+
+  /* Stretch the background to fit the full browser window */
+  min-height: 100vh;
+  width: 100%;
+
+  /* Dark night-sky color */
+  background-color: #0b111e;
+
+  /* Layered white stars using radial gradients */
+  background-image: 
+    radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px);
+
+  /* Different sizes break up any obvious repeating patterns */
+  background-size: 550px 550px, 350px 350px, 250px 250px;
+
+  /* Uneven offsets scatter the stars randomly */
+  background-position: 0 0, 40px 60px, 130px 270px;
+
+  /* CRITICAL FOR MAIN BACKGROUNDS: Keeps stars locked in place while content scrolls */
+  background-attachment: fixed;
+  
+  /* Ensures the stars tile smoothly if the page is long */
+  background-repeat: repeat;
+}
+
+main {
+	display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    min-height: 100vh;
+}
+
+article {
+	background-color: #0b111e96;
+    backdrop-filter: blur(3px);
+
+    /* Removed the heavy top/bottom margins */
+    margin: 0; 
+    padding: 30px;
+    border-radius: 20px;
+	border-left: white solid 1px;
+	border-top: white solid 1px;
+	border-bottom: white solid 1px;
+	border-right: white solid 1px;
+    
+    /* Optional: Give it a width or max-width so it doesn't stretch infinitely */
+    width: 90%;
+    max-width: 600px;
+}
+
+.welcome {
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+section {
+	border-bottom: white solid 1px;
+	border-top: white solid 1px;
+	width: auto;
+}
+	</style>
+<script src="https://keepandroidopen.org/banner.js"></script>
+</head>
+<body>
+<script src="https://keepandroidopen.org/banner.js?link=https://example.com/android&hidebutton=off"></script>
+	<main>
+		<article>
+			<p style="text-align: center; font-size: 25px;">Welcome to my place<br>
+			This is a place where i talk about me</p>
+			<section>
+				<p>13/06/2026<br><br>Hi I Made This Website Soon New Updates</p>
+			</section>
+		</article>
+	</main>
+</body>
+</html>
